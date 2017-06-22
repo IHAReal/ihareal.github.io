@@ -1,14 +1,17 @@
+<!DOCTYPE html>
 
 <html>
   <head>
     <meta charset="utf-8">
     <title>ImplementationITCompany</title>
+    <style>
 
+      </style>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/faq.css">
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-fixed-top" >
@@ -21,14 +24,14 @@
   </button>
 
   <a class="navbar-brand" href="WEB-site_1.html">IITCompany</a>
-  <a href="WEB-site_1.html"><img alt="Brand" width="20%" height="20%" src="github-octocat.svg" class="img-responsive"></a>
+  <a href="WEB-site_1.html"><img brand alt="Brand" width="40%" height="40%" src="apache.svg" class="img-responsive center"></a>
   </div>
   <div class=" navbar-collapse collapse" id="navbar-collapse">
     <ul class="nav navbar-nav">
   <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">More info<b class="caret"></b></a>
     <ul class="dropdown-menu">
-      <li id="li1"><a href="#">Gem1</a></li>
+      <li><a href="#">Gem1</a></li>
       <li><a href="#">Gem2</a></li>
       <li><a href="#">Gem3</a></li>
       <li class="divider"></li>
@@ -49,51 +52,53 @@
     </form>
 </div>
 </div>
-<div class="jumbotron">
+
   <div class="container">
-    <h1>Hello, dear guest!</h1>
-    <p>We congratulate you to find us. So we decided to return the past and remake legendary
-       arcade of all times.<br>Meet Ping-Pong!!!
-</p>
-    <p><a href="#" class="btn btn-primary btn-lg">Know more &raquo;</a></p>
+  <button class="btn btn-info" data-toggle="collapse" data-target="#hide">Hello</button>
+  <div class="collapse" id="hide">
+  World!
+  </div>
+  <br><br><br><br><br><br>
+
+  </div>
+  <div class="container">
+
+  <div class="panel-group" id="collapse-group">
+
+
+    <div class="panel panel-info">
+    <div class="panel-heading">
+      <a data-toggle="collapse" data-parent="#collapse-group" href="#el1">Нельзя играть с другом?</a>
+    </div>
+    <div id="el1" class="collapse">
+      <div class="panel-body">Для того, чтобы открыть режим игры вдвоем необходимо зарегистрироваться в самой игре.</div>
+      </div>
+  </div>
+  <div class="panel panel-info">
+  <div class="panel-heading">
+    <a data-toggle="collapse" data-parent="#collapse-group" href="#el2">Почему не могу зарегистрироваться на сайте?</a>
+  </div>
+  <div id="el2" class="collapse">
+    <div class="panel-body">В данный момент идет доработка синхронизации базы данных между игрой и сайтом.</div>
+    </div>
+</div>
+<div class="panel panel-info">
+<div class="panel-heading">
+  <a data-toggle="collapse" data-parent="#collapse-group" href="#el3">Будут ли обновления?</a>
+</div>
+<div id="el3" class="collapse">
+  <div class="panel-body">Будут.</div>
   </div>
 </div>
-<div class="container">
-<div class="row">
-  <div class="col-md-4"><h1>Instruction</h1></div>
-  <div class="col-md-4"></div>
-  <div class="col-md-4"></div>
-</div>
-</div>
 
-<div class="container">
- <div class="row">
-   <div class="col-md-4">
 
-     <h2>First step</h2>
-<p asd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><a class="btn btn-primary btn-md" href="#">Know more &raquo;</a></p>
-   </div>
-
-   <div class="col-md-4">
-     <h2>Second step</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><a class="btn btn-primary btn-md" href="#">Know more &raquo;</a></p>
-   </div>
-  <div class="col-md-4">
-    <h2>Third step</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<p><a class="btn btn-primary btn-md" href="#">Know more &raquo;</a></p>
-  </div>
-   </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>﻿
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- HelloPreload http://hello-site.ru/preloader/ -->
-    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #000000 url(http://hello-site.ru//main/images/preloads/puff.svg) center center no-repeat;background-size:121px;}</style>
+    <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #000000 url(http://hello-site.ru//main/images/preloads/bars.svg) center center no-repeat;background-size:121px;}</style>
     <div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
     <script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
     <!-- HelloPreload http://hello-site.ru/preloader/ -->
   </body>
-  <hr>
-  <footer>&copy;All rights reserved 2017</footer>
+
 </html>
